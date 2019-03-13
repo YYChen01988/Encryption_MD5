@@ -1,0 +1,10 @@
+For this assignment I have used the Java Spring framework.
+I did not create a front-end since it was not stated in the requirements and due to time limitations.
+For simplicity reason, all the end-points and generate/validate functions are in the same Controller class.
+
+The difficult part was learning how to use a MD5 encryption function, which I have found as an example on the internet and applied it to the assignment.
+My assumption is that the license key is basically a MD5 hash, which is computed from a combination of users first name, last name and a secret key which is hardcoded.
+It was not clear to me in the assignment how to use the package name since it is not provided in the verification request.
+Though the package name is currently unused, my thought is that it can be included in the generation of the MD5 hash and attached in plain text to the hash as the final license key.
+This would ensure that the package name is provided to the verification request as part of the license key.
+This however was not implemented due to time limitations.
